@@ -21,7 +21,21 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(101, 113, 221);
+}
+.App-header h2 {
+  color: gold;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.App-header label {
+  text-transform: capitalize;
+
+}
+
+.App-header textarea {
+  float: left;
 }
 
 .App-link {

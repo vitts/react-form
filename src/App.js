@@ -1,22 +1,20 @@
 import logo from './logo.svg';
+import "bootstrap/dist/css/bootstrap.min.css";
 import './App.css';
+import StudentForm from './components/form.component';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <div className="container py-5">
+            <div className="row">
+                <div className="col-md-12">
+                    <h2 className="text-center mb-5">Student From</h2>
+                    <StudentForm />
+                </div>
+            </div>
+        </div>
       </header>
     </div>
   );
